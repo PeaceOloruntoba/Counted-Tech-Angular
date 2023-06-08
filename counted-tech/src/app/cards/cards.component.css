@@ -1,10 +1,13 @@
 .cards{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 .all{
     display: flex;
     flex-direction: column;
     background: #ffffff;
     width: 76px;
+    align-items: center;
+    height: 76px;
 }
