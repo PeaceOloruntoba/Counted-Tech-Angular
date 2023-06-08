@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+/* .logo{
+    margin-top: -60px;
+    margin-left: -60px;
+    transform: scale(0.5);
+} */

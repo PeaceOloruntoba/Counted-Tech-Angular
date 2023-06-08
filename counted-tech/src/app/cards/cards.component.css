@@ -1,0 +1,10 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    width: 76px;
+}
