@@ -3,3 +3,6 @@ body{
     background: #F2F5FA;
     font-family: 'Poppins', sans-serif;
 }
+button{
+    cursor: pointer;
+}
