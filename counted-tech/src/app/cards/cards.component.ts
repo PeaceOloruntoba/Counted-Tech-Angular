@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class CardsComponent {
   constructor(private router: Router) {}
-
+  
   openCardAllComponent() {
     this.router.navigateByUrl('/card-all');
   }
