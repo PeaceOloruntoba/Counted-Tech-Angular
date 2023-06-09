@@ -7,7 +7,51 @@
     display: flex;
     flex-direction: column;
     background: #ffffff;
-    width: 76px;
+    width: 170px;
     align-items: center;
-    height: 76px;
+    height: auto;
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.all-btn{
+    color: #ffffff;
+    background-color: #4269E1;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
+}
+.available-btn{
+    color: #ffffff;
+    background-color: #4FE142;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
+}
+.absent-btn{
+    color: #ffffff;
+    background-color: #E14242;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
+}
+.inactive-btn{
+    color: #ffffff;
+    background-color: #CB42E1;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
+}
+.vacation-btn{
+    color: #ffffff;
+    background-color: #E19842;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 30px;
 }
