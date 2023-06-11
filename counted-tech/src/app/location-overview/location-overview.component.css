@@ -1,0 +1,43 @@
+hr{
+    color: blue;
+    background-color: blue;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    /* padding: 20px; */
+    padding-right: 130px;
+    padding-left: 130px;
+}
+.location{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+}
+.ll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.radius{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+}
+.art{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    width: 150px;
+}
+
