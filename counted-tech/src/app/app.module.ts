@@ -16,6 +16,7 @@ import { MiddleComponent } from './middle/middle.component';
 import { BottomComponent } from './bottom/bottom.component';
 import { LocationOverviewComponent } from './location-overview/location-overview.component';
 import { AddJobtitleComponent } from './add-jobtitle/add-jobtitle.component';
+import { AddWorklocationComponent } from './add-worklocation/add-worklocation.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AddJobtitleComponent } from './add-jobtitle/add-jobtitle.component';
     MiddleComponent,
     BottomComponent,
     LocationOverviewComponent,
-    AddJobtitleComponent
+    AddJobtitleComponent,
+    AddWorklocationComponent
   ],
   imports: [
     BrowserModule,
