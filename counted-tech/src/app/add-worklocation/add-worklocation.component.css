@@ -60,7 +60,7 @@ input{
 .bbb{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 .big{
@@ -70,12 +70,12 @@ input{
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 .std{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 .ne{
     display: flex;
@@ -91,4 +91,30 @@ input{
     width: 100%;justify-content: center;
 
 }
-
+.mit{
+    background: #000000;
+    color: #ffffff;
+    width: 90%;
+    outline: none;
+    border: none;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.add{
+    background: #4269E1;
+    color: #ffffff;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.btn{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.art{
+    margin-bottom: 12px;
+}

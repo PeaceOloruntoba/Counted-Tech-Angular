@@ -17,6 +17,14 @@ import { BottomComponent } from './bottom/bottom.component';
 import { LocationOverviewComponent } from './location-overview/location-overview.component';
 import { AddJobtitleComponent } from './add-jobtitle/add-jobtitle.component';
 import { AddWorklocationComponent } from './add-worklocation/add-worklocation.component';
+import { AddNewsComponent } from './add-news/add-news.component';
+import { ImprintsComponent } from './imprints/imprints.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsConditionComponent } from './terms-condition/terms-condition.component';
+import { AddEmployeeLocationComponent } from './add-employee-location/add-employee-location.component';
+import { AddEmployeeSectionComponent } from './add-employee-section/add-employee-section.component';
+import { AddEmployeeAvailableComponent } from './add-employee-available/add-employee-available.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +42,15 @@ import { AddWorklocationComponent } from './add-worklocation/add-worklocation.co
     BottomComponent,
     LocationOverviewComponent,
     AddJobtitleComponent,
-    AddWorklocationComponent
+    AddWorklocationComponent,
+    AddNewsComponent,
+    ImprintsComponent,
+    PrivacyPolicyComponent,
+    TermsConditionComponent,
+    AddEmployeeLocationComponent,
+    AddEmployeeSectionComponent,
+    AddEmployeeAvailableComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
