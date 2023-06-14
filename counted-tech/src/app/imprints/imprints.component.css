@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.top{
+    display: flex;
+    margin-right: -290px;
+}
+.head{
+    font-size: large;
+    font-weight: bold;
+}
+.body{
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 12px;
+    width: 30%;
+    line-height: 40px;
+}
