@@ -25,6 +25,10 @@ import { AddEmployeeLocationComponent } from './add-employee-location/add-employ
 import { AddEmployeeSectionComponent } from './add-employee-section/add-employee-section.component';
 import { AddEmployeeAvailableComponent } from './add-employee-available/add-employee-available.component';
 import { NewsComponent } from './news/news.component';
+import { SettingsComponent } from './settings/settings.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
+import { DeleteAccountComponent } from './delete-account/delete-account.component';
+import { LogoffComponent } from './logoff/logoff.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +54,11 @@ import { NewsComponent } from './news/news.component';
     AddEmployeeLocationComponent,
     AddEmployeeSectionComponent,
     AddEmployeeAvailableComponent,
-    NewsComponent
+    NewsComponent,
+    SettingsComponent,
+    ChangePasswordComponent,
+    DeleteAccountComponent,
+    LogoffComponent
   ],
   imports: [
     BrowserModule,
