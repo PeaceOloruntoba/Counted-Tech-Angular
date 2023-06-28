@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-news',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./add-news.component.css']
 })
 export class AddNewsComponent {
-
+  constructor(private router: Router) { }
+  openMainComponent() {
+    this.router.navigateByUrl('/')
+  }
 }

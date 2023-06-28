@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-employee-section',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./add-employee-section.component.css']
 })
 export class AddEmployeeSectionComponent {
-
+  constructor(private router: Router) { }
+  openMainComponent() {
+    this.router.navigateByUrl('/')
+  }
+  openAddEmployeeLocation(){
+    this.router.navigateByUrl('/add-employee-location')
+  }
+  openAddEmployeeAvailable(){
+    this.router.navigateByUrl('/add-employee-available')
+  }
 }

@@ -6,6 +6,9 @@ import { CardAbsentComponent } from './card-absent/card-absent.component';
 import { CardInactiveComponent } from './card-inactive/card-inactive.component';
 import { CardAvailableComponent } from './card-available/card-available.component';
 import { MainComponent } from './main/main.component';
+import { AddEmployeeSectionComponent } from './add-employee-section/add-employee-section.component';
+import { AddEmployeeLocationComponent } from './add-employee-location/add-employee-location.component';
+import { AddEmployeeAvailableComponent } from './add-employee-available/add-employee-available.component';
 
 const routes: Routes = [
     { path: "", component: MainComponent },
@@ -13,7 +16,12 @@ const routes: Routes = [
     { path: 'card-available', component: CardAvailableComponent },
     { path: 'card-inactive', component: CardInactiveComponent },
     { path: 'card-absent', component: CardAbsentComponent },
-    { path: 'card-vacation', component: CardVacationComponent }
+    { path: 'card-vacation', component: CardVacationComponent },
+    { path: 'add-employee-section', component: AddEmployeeSectionComponent },
+    { path: 'add-employee-location', component: AddEmployeeLocationComponent },
+    { path: 'add-employee-available', component: AddEmployeeAvailableComponent }
+    // { path: 'card-absent', component: CardAbsentComponent },
+    // { path: 'card-vacation', component: CardVacationComponent }
 ];
 
 @NgModule({

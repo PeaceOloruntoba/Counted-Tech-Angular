@@ -1,6 +1,6 @@
 <div class="main">
     <div class="header">
-        <img src="../../assets/close.svg" alt="">
+        <img (click)="openMainComponent()" src="../../assets/close.svg" alt="">
     </div>
     <div class="hhh">
         <p><strong>Add Employee</strong></p>
@@ -9,10 +9,10 @@
         <div class="lo we">
             <span>Location</span>
         </div>
-        <div class="se we">
+        <div (click)="openAddEmployeeSection()" class="se we">
             <span>Section</span>
         </div>
-        <div class="av we">
+        <div (click)="openAddEmployeeAvailable()" class="av we">
             <span>Available</span>
         </div>
     </div>
