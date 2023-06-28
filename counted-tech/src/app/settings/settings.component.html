@@ -3,15 +3,15 @@
     <div class="main">
         <div class="left">
             <p>Rechtliches</p>
-            <button><span>Imprint</span><span>></span></button>
-            <button><span>Privacy Policy</span> <span>></span></button>
-            <button><span>Terms & Conditions</span><span>></span></button>
+            <button (click)="openImprintComponent()"><span>Imprint</span><span>></span></button>
+            <button (click)="openPrivacyPolicyComponent()"><span>Privacy Policy</span> <span>></span></button>
+            <button (click)="openTermsConditionComponent()"><span>Terms & Conditions</span><span>></span></button>
         </div>
         <div class="right">
             <p>Einstellungen</p>
-            <button><span>Change Password</span><span>></span></button>
-            <button><span>Log off</span><span>></span></button>
-            <button><span>Delete Account</span><span>></span></button>
+            <button (click)="openChangePasswordComponent()"><span>Change Password</span><span>></span></button>
+            <button (click)="openLogoffComponent()"><span>Log off</span><span>></span></button>
+            <button (click)="openDeleteAccountComponent()"><span>Delete Account</span><span>></span></button>
         </div>
     </div>
 </div>

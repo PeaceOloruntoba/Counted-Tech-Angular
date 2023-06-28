@@ -20,3 +20,6 @@
     width: 30%;
     line-height: 40px;
 }
+img{
+    cursor: pointer;
+}
