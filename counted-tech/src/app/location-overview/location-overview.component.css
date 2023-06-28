@@ -17,6 +17,7 @@ hr{
     /* padding: 20px; */
     padding-right: 180px;
     padding-left: 180px;
+    cursor: pointer;
 }
 .location{
     background: #ffffff;

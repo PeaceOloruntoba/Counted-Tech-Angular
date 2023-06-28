@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-location-overview',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./location-overview.component.css']
 })
 export class LocationOverviewComponent {
-
+  constructor(private location: Location) {}
+  goBack() {
+    this.location.back();
+  }
 }
