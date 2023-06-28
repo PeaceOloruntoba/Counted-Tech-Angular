@@ -17,4 +17,10 @@ export class NavbarComponent {
   openAddJobtitleComponent(){
     this.router.navigateByUrl('/add-jobtitle')
   }
+  openSettingsComponent(){
+    this.router.navigateByUrl('/settings')
+  }
+  openAddEmployeeLocationComponent(){
+    this.router.navigateByUrl('/add-employee-location')
+  }
 }
