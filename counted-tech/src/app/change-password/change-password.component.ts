@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-change-password',
@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./change-password.component.css']
 })
 export class ChangePasswordComponent {
-  constructor(private router: Router) {}
-  openMainComponent() {
-    this.router.navigateByUrl('/');
+  constructor(private location: Location) {}
+  goBack() {
+    this.location.back();
   }
 }
