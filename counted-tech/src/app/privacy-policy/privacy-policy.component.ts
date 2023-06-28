@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-privacy-policy',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./privacy-policy.component.css']
 })
 export class PrivacyPolicyComponent {
-
+  constructor(private location: Location) {}
+  goBack() {
+    this.location.back();
+  }
 }
