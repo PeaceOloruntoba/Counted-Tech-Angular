@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-card-absent',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-absent.component.css']
 })
 export class CardAbsentComponent {
-
+  constructor(private router: Router) { }
+  openMainComponent() {
+    this.router.navigateByUrl('/')
+  }
 }

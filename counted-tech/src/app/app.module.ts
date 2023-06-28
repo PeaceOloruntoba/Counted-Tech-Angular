@@ -29,6 +29,7 @@ import { SettingsComponent } from './settings/settings.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { DeleteAccountComponent } from './delete-account/delete-account.component';
 import { LogoffComponent } from './logoff/logoff.component';
+import { RoutedRoutingModule } from "./RoutedRouting.module"
 
 @NgModule({
   declarations: [
@@ -62,10 +63,10 @@ import { LogoffComponent } from './logoff/logoff.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RoutedRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
