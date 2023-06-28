@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+button{
+    background: #fff;
+    border: none;
+    padding: 8px;
+    margin-bottom: 18px;
+    justify-content: space-between;
+    display: flex;
+    font-family: Poppins;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+}

@@ -11,10 +11,10 @@ export class AddEmployeeLocationComponent {
   openMainComponent() {
     this.router.navigateByUrl('/')
   }
-  openAddEmployeeSection(){
+  openAddEmployeeSectionComponent(){
     this.router.navigateByUrl('/add-employee-section')
   }
-  oppenAddEmployeeAvailable(){
+  openAddEmployeeAvailableComponent(){
     this.router.navigateByUrl('/add-employee-available')
   }
 }

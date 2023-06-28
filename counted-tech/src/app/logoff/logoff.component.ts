@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-logoff',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./logoff.component.css']
 })
 export class LogoffComponent {
-
+  constructor(private router: Router) {}
+  openMainComponent() {
+    this.router.navigateByUrl('/');
+  }
 }

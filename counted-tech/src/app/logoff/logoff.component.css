@@ -1,0 +1,38 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-family: Poppins;
+}
+.first{
+    text-align: center;
+    font-size: large;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #AD0E0E;
+    padding-top: 4px;
+    Width: 400px;
+    border-radius: 9px;
+    border: none;
+    color: #fff;
+    height: 40px;
+    align-items: center;
+    font-family: Poppins;
+}
+.svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.mmm{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+}
